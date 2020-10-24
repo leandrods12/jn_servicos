@@ -1,12 +1,12 @@
 package controller;
 
 public class Cliente {
-	private String nome;
+	private String name;
 	private long cpf;
 	private String endereco;
 	private long telefone;
 	public Cliente(String nome, String endereco, long cpf, long telefone) {
-		this.nome = nome;
+		this.name = nome;
 		this.cpf = cpf;
 		this.endereco = endereco;
 		this.telefone = telefone;
@@ -18,11 +18,11 @@ public class Cliente {
 	public void setEndereco(String endereco) {
 		this.endereco = endereco;
 	}
-	public String getNome() {
-		return nome;
+	public String getName() {
+		return name;
 	}
-	public void setNome(String nome) {
-		this.nome = nome;
+	public void setName(String name) {
+		this.name = name;
 	}
 	public double getCpf() {
 		return cpf;
