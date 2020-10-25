@@ -18,7 +18,7 @@ import javax.swing.JOptionPane;
  * @author gustavo
  */
 public class GeralDAO {
-    
+
     /**
      * *************** CONEXÃO COM O BANCO DE DADOS ***********************
      */
@@ -32,7 +32,7 @@ public class GeralDAO {
     ResultSet rs;
 
     // NOME DO BANCO DE DADOS
-    String database = "GerenciadorDeEstoque";
+    String database = "jn_servicos_ambientais";
     // URL: VERIFICAR QUAL A PORTA
     String url = "jdbc:Mysql://localhost:3306/" + database + "?useTimezone=true&serverTimezone=UTC&useSSL=false";
     // USUÁRIO
@@ -49,6 +49,5 @@ public class GeralDAO {
         } catch (SQLException ex) {
             JOptionPane.showMessageDialog(null, "Erro: " + ex.getMessage(), "Mensagem de Erro", JOptionPane.ERROR_MESSAGE);
         }
-
     }
 }
