@@ -1,14 +1,21 @@
 package controller;
 
 public class TipoServico {
-	private String tipoServico;
 
-	public String getTipoServico() {
-		return tipoServico;
+	public TipoServico(String nomeServico) {
+		this.nomeServico = nomeServico;
 	}
 
-	public void setTipoServico(String tipoServico) {
-		this.tipoServico = tipoServico;
+	private String nomeServico;
+
+	public String getNomeServico() {
+		return nomeServico;
 	}
+
+	public void setNomeServico(String nomeServico) {
+		this.nomeServico = nomeServico;
+	}
+
+	
 
 }
