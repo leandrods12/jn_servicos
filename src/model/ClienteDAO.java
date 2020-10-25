@@ -19,9 +19,9 @@ public class ClienteDAO extends GeralDAO {
 
         connectToDb();
 
-        String sqlInserirProduto = "INSERT INTO Cliente (nome_cliente, cpf, endereco, telefone) values (?,?,?,?)";
+        String query = "INSERT INTO Cliente (nome_cliente, cpf, endereco, telefone) values (?,?,?,?)";
         try {
-            pst = con.prepareStatement(sqlInserirProduto);
+            pst = con.prepareStatement(query);
             pst.setString(1, novoCliente.getNome());
             pst.setLong(2, novoCliente.getCpf());
             pst.setString(3, novoCliente.getEndereco());
