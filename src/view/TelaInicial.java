@@ -87,7 +87,7 @@ public class TelaInicial extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void btn_cadastroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_cadastroActionPerformed
-        Cadastros cadastros = new Cadastros();
+        TelaCadastros cadastros = new TelaCadastros();
         cadastros.setVisible(true);
     }//GEN-LAST:event_btn_cadastroActionPerformed
 

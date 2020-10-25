@@ -7,12 +7,11 @@ public class Cliente {
     private String endereco;
     private long telefone;
 
-    public Cliente(String nome, String endereco, long cpf, long telefone) {
+    public Cliente(long cpf, long telefone, String nome, String endereco) {
         this.nome = nome;
         this.cpf = cpf;
         this.endereco = endereco;
         this.telefone = telefone;
-
     }
 
     public String getEndereco() {

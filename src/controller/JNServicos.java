@@ -5,8 +5,6 @@
  */
 package controller;
 
-import view.TelaInicial;
-
 /**
  *
  * @author gustavo
@@ -17,8 +15,6 @@ public class JNServicos {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-    	TelaInicial telaInicial = new TelaInicial();
-    	telaInicial.main(args);
     }
-    
+
 }
